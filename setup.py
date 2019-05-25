@@ -55,11 +55,13 @@ if __name__ == '__main__':
         packages=find_packages(),
         platforms=["Linux", "macOS"],
         install_requires=[
-            "numpy"
+            "numpy",
+            "tensorflow",
+            "matplotlib",
+            "sklearn"
         ],
         test_suite="nose.collector",
         tests_require=["nose"],
-        scripts=['bin/example_script'],
         # https://pypi.org/pypi?%3Aaction=list_classifiers
         classifiers=[
             "Programming Language :: Python :: 3",
