@@ -51,7 +51,7 @@ if __name__ == '__main__':
         license="LICENSE",
         url = "",
         download_url = "",
-        keywords=['pip','pypackage'],
+        keywords=['pip','pyrsostf'],
         packages=find_packages(),
         platforms=["Linux", "macOS"],
         install_requires=[
